@@ -3,8 +3,16 @@ from torch import nn
 
 
 class FocalLoss(nn.Module):
-    pass
+    def __init__(self):
+        super(FocalLoss, self).__init__()
+
+    def forward(self, *input):
+        pass
 
 
 class IoULoss(nn.Module):
-    pass
+    def __init__(self):
+        super(IoULoss, self).__init__()
+
+    def forward(self, *input):
+        pass
